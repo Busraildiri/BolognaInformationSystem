@@ -6,3 +6,11 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<!-- Home/Index.cshtml içinde -->
+<h1>Welcome to the Home Page</h1>
+
+<!-- Users Controller'a link ekleme -->
+<p>
+    <a href="@Url.Action("Index", "Users")">Manage Users</a>
+</p>
